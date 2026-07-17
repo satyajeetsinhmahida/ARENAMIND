@@ -1,0 +1,29 @@
+{
+  "wheelchairSeating": {
+    "locations": "ADA-compliant wheelchair and companion seating is available on all levels (Level 1, Level 2, and Level 3) in Sections 100, 109, 124, 135, 140, 201, 224, 245, 301, 324, and 345.",
+    "access": "Accessible elevators are located at the Verizon Gate (Gate A), MetLife Gate (Gate C), and Pepsi Gate (Gate E). Ramps are available at all gates.",
+    "ticketExchange": "If a fan holds a standard ticket but requires wheelchair seating, they should report to the Ticket Office window inside Gate A or Gate C for an exchange (subject to availability)."
+  },
+  "accessibleRestrooms": {
+    "locations": "All public restrooms inside the stadium are fully accessible. In addition, unisex family/accessible restrooms are located on the Level 1 concourses near Section 104, 117, 128, and 139, and Level 3 near Section 303, 318, 332, and 347.",
+    "features": "Grab bars, emergency pull chords, low sinks, and automatic doors."
+  },
+  "signLanguage": {
+    "interpreters": "American Sign Language (ASL) interpreters are positioned at the base of the two main video boards (North and South end zones) for all pre-match activities, anthems, and stadium announcements.",
+    "requestService": "Fans requiring individual ASL translation for tours or specific services can request them by visiting the Guest Services booth inside Gate A at least 1 hour prior to kick-off."
+  },
+  "sensoryRooms": {
+    "locations": "A state-of-the-art Sensory Room is located on Level 1 near Section 117. This space is designed for individuals with sensory processing needs, autism, or dementia, offering a quiet, calming environment.",
+    "sensoryKits": "Sensory bags containing noise-cancelling headphones, fidget tools, verbal cue cards, and weighted lap pads are available for rent free of charge (with a valid ID deposit) at all Guest Services booths (inside Gates A, C, and E)."
+  },
+  "serviceAnimals": {
+    "policy": "Trained service animals (dogs or miniature horses) accompanying individuals with disabilities are welcome. Emotional support animals and pets are strictly prohibited.",
+    "reliefArea": "The designated service animal relief area is located outside the security perimeter near Gate D. Fans must contact a Guest Services Supervisor at Gate D to coordinate exit and re-entry."
+  },
+  "assistiveListening": {
+    "devices": "Assistive Listening Devices (ALDs) that amplify stadium public address announcements are available for rent free of charge at the Guest Services booths inside Gates A, C, and E. A driver's license or major credit card is required as a security deposit."
+  },
+  "brailleStadiumGuides": {
+    "availability": "Tactile stadium maps and braille informational guides containing seat directions, restroom locations, and food vendor menus are available at all Guest Services booths (Gates A, C, and E)."
+  }
+}

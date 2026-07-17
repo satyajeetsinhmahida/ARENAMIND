@@ -1,0 +1,114 @@
+[
+  {
+    "standId": "Stand-1",
+    "name": "Corner Kick Burgers",
+    "specialty": "Classic and Gourmet Burgers",
+    "items": [
+      { "name": "Classic Cheeseburger", "price": 14.50, "allergens": ["gluten", "dairy"], "flags": ["halal"], "prepTimeSeconds": 180 },
+      { "name": "Double Field Burger", "price": 18.00, "allergens": ["gluten", "dairy"], "flags": [], "prepTimeSeconds": 240 },
+      { "name": "Beyond Plant-Based Burger", "price": 15.50, "allergens": ["gluten", "soy"], "flags": ["vegan", "vegetarian"], "prepTimeSeconds": 210 },
+      { "name": "Garlic Fries", "price": 8.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 90 },
+      { "name": "Premium Draft Beer", "price": 12.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 },
+      { "name": "Fountain Soda (Large)", "price": 6.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Bottled Water", "price": 5.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 }
+    ]
+  },
+  {
+    "standId": "Stand-2",
+    "name": "World Cup Tacos",
+    "specialty": "Authentic Mexican Street Tacos",
+    "items": [
+      { "name": "Carne Asada Tacos (3)", "price": 15.00, "allergens": [], "flags": ["gluten-free", "halal"], "prepTimeSeconds": 120 },
+      { "name": "Pollo Asado Tacos (3)", "price": 14.00, "allergens": [], "flags": ["gluten-free", "halal"], "prepTimeSeconds": 120 },
+      { "name": "Vegetarian Rajas Tacos (3)", "price": 13.00, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 120 },
+      { "name": "Chips & Fresh Guacamole", "price": 9.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 60 },
+      { "name": "Churros with Caramel", "price": 7.50, "allergens": ["gluten", "dairy"], "flags": ["vegetarian"], "prepTimeSeconds": 90 },
+      { "name": "Mexican Coca-Cola", "price": 6.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Frozen Margarita", "price": 14.00, "allergens": [], "flags": [], "prepTimeSeconds": 60 }
+    ]
+  },
+  {
+    "standId": "Stand-3",
+    "name": "Goal Line Grill",
+    "specialty": "Barbecue and Grill Classics",
+    "items": [
+      { "name": "Pulled Pork Sandwich", "price": 16.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 150 },
+      { "name": "Smoked Beef Brisket", "price": 19.50, "allergens": [], "flags": ["gluten-free"], "prepTimeSeconds": 180 },
+      { "name": "Grilled Chicken Breast Sandwich", "price": 14.00, "allergens": ["gluten"], "flags": ["halal"], "prepTimeSeconds": 150 },
+      { "name": "Loaded BBQ Mac & Cheese", "price": 12.50, "allergens": ["gluten", "dairy"], "flags": ["vegetarian"], "prepTimeSeconds": 90 },
+      { "name": "Coleslaw Side", "price": 4.50, "allergens": ["egg"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Iced Tea (Sweetened)", "price": 5.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Imported Can Beer", "price": 13.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 30 }
+    ]
+  },
+  {
+    "standId": "Stand-4",
+    "name": "Red Card Pizza",
+    "specialty": "Artisanal Pizza by the Slice and Whole Pies",
+    "items": [
+      { "name": "Cheese Pizza Slice", "price": 8.50, "allergens": ["gluten", "dairy"], "flags": ["vegetarian"], "prepTimeSeconds": 60 },
+      { "name": "Pepperoni Pizza Slice", "price": 9.50, "allergens": ["gluten", "dairy"], "flags": ["halal"], "prepTimeSeconds": 60 },
+      { "name": "Supreme Pizza Slice", "price": 10.50, "allergens": ["gluten", "dairy"], "flags": [], "prepTimeSeconds": 90 },
+      { "name": "Gluten-Free Veggie Slice", "price": 11.00, "allergens": ["dairy", "soy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 120 },
+      { "name": "Garlic Knots (4)", "price": 6.50, "allergens": ["gluten", "dairy"], "flags": ["vegetarian"], "prepTimeSeconds": 90 },
+      { "name": "Soft Drink (Large)", "price": 6.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Italian Wine (Red/White)", "price": 12.50, "allergens": [], "flags": [], "prepTimeSeconds": 45 }
+    ]
+  },
+  {
+    "standId": "Stand-5",
+    "name": "Match Day Nachos",
+    "specialty": "Customisable Stadium Nachos",
+    "items": [
+      { "name": "Grande Nachos with Cheese", "price": 10.00, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 90 },
+      { "name": "Chili Cheese Nachos", "price": 13.50, "allergens": ["dairy"], "flags": ["halal"], "prepTimeSeconds": 120 },
+      { "name": "Pulled Chicken Nachos", "price": 14.50, "allergens": ["dairy"], "flags": ["halal"], "prepTimeSeconds": 120 },
+      { "name": "Extra Cheese Cup", "price": 2.00, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 15 },
+      { "name": "Jalapeno Slices Side", "price": 1.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 },
+      { "name": "Fountain Soda (Large)", "price": 6.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Domestic Light Beer", "price": 11.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 }
+    ]
+  },
+  {
+    "standId": "Stand-6",
+    "name": "Golden Boot Brews",
+    "specialty": "Craft Beer and Specialty Beverages",
+    "items": [
+      { "name": "Local Craft IPA", "price": 14.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 },
+      { "name": "Belgian White Ale", "price": 13.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 },
+      { "name": "Amber Lager", "price": 12.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 },
+      { "name": "Hard Cider", "price": 12.00, "allergens": [], "flags": ["gluten-free", "vegan"], "prepTimeSeconds": 45 },
+      { "name": "Soft Pretzel with Mustard", "price": 7.00, "allergens": ["gluten"], "flags": ["vegan", "vegetarian"], "prepTimeSeconds": 60 },
+      { "name": "Salted Peanuts Pack", "price": 5.50, "allergens": ["peanuts"], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 },
+      { "name": "Bottled Water", "price": 5.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 }
+    ]
+  },
+  {
+    "standId": "Stand-7",
+    "name": "Hat-Trick Hotdogs",
+    "specialty": "All-American Hot Dogs and Specialty Sausages",
+    "items": [
+      { "name": "Classic Nathan Hot Dog", "price": 8.00, "allergens": ["gluten"], "flags": ["halal"], "prepTimeSeconds": 60 },
+      { "name": "Chili Cheese Dog", "price": 11.00, "allergens": ["gluten", "dairy"], "flags": ["halal"], "prepTimeSeconds": 90 },
+      { "name": "Spicy Italian Sausage", "price": 12.50, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 120 },
+      { "name": "Plant-Based Veggie Dog", "price": 9.50, "allergens": ["gluten"], "flags": ["vegan", "vegetarian"], "prepTimeSeconds": 90 },
+      { "name": "Crinkle Cut Fries", "price": 7.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 90 },
+      { "name": "Fountain Soda (Large)", "price": 6.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Premium Draft Beer", "price": 12.00, "allergens": ["gluten"], "flags": [], "prepTimeSeconds": 45 }
+    ]
+  },
+  {
+    "standId": "Stand-8",
+    "name": "Halftime Treats",
+    "specialty": "Desserts, Coffee, and Snacks",
+    "items": [
+      { "name": "Glazed Donut Holes Box", "price": 8.00, "allergens": ["gluten", "dairy", "egg"], "flags": ["vegetarian"], "prepTimeSeconds": 45 },
+      { "name": "Popcorn Bucket", "price": 9.00, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 30 },
+      { "name": "Hot Chocolate", "price": 5.50, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 60 },
+      { "name": "Fresh Brewed Coffee", "price": 4.50, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 45 },
+      { "name": "Gourmet Ice Cream Cup", "price": 7.00, "allergens": ["dairy"], "flags": ["vegetarian", "gluten-free"], "prepTimeSeconds": 45 },
+      { "name": "Cotton Candy", "price": 6.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 },
+      { "name": "Bottled Water", "price": 5.00, "allergens": [], "flags": ["vegan", "vegetarian", "gluten-free"], "prepTimeSeconds": 15 }
+    ]
+  }
+]

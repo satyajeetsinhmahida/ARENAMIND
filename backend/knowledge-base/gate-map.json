@@ -1,0 +1,56 @@
+[
+  {
+    "gateId": "Gate-A",
+    "name": "Gate A (Verizon Gate)",
+    "location": "North Entrance, near Parking Lot G and H",
+    "transit": "Closest to the Meadowlands Sports Complex rail station. Direct shuttle service available from Lots F and G.",
+    "accessibility": "Equipped with wide accessible turnstiles, low-slope ramps, tactile ground paths for visually impaired, and passenger drop-off zones immediately outside.",
+    "sectionsServed": ["Sections 100-109", "Sections 201-208", "Sections 301-310"],
+    "hours": "Opens 3 hours prior to match kick-off, closes 1 hour after match ends."
+  },
+  {
+    "gateId": "Gate-B",
+    "name": "Gate B (SAP Gate)",
+    "location": "North-East Entrance, near Parking Lot E and F",
+    "transit": "Direct pedestrian walkway from the bus terminal. Taxi/rideshare drop-off area is located 200m away in Lot E.",
+    "accessibility": "Wheelchair loan depot is located right inside Gate B. Step-free entry, accessible escalators to Level 2.",
+    "sectionsServed": ["Sections 110-117", "Sections 209-218", "Sections 311-320"],
+    "hours": "Opens 3 hours prior to match kick-off, closes 1 hour after match ends."
+  },
+  {
+    "gateId": "Gate-C",
+    "name": "Gate C (MetLife Gate)",
+    "location": "East Entrance, near Parking Lot D and C",
+    "transit": "Direct train walkway connecting NJ Transit rail line. Closest entrance for regional rail travellers.",
+    "accessibility": "Full accessibility ramps, ADA assistance kiosk inside the lobby. Elevators nearby accessing all tiers.",
+    "sectionsServed": ["Sections 118-125", "Sections 219-228", "Sections 321-330"],
+    "hours": "Opens 3 hours prior to match kick-off, closes 1 hour after match ends."
+  },
+  {
+    "gateId": "Gate-D",
+    "name": "Gate D (Hertz Gate)",
+    "location": "South Entrance, near Parking Lot B and A",
+    "transit": "Closest to the charter bus parking area (Lot A). Direct pedestrian pathways from South parking lots.",
+    "accessibility": "Level access, low turnstiles, tactile paving, sensory kit pick-up location in the guest services suite.",
+    "sectionsServed": ["Sections 126-133", "Sections 229-238", "Sections 331-340"],
+    "hours": "Opens 3 hours prior to match kick-off, closes 1 hour after match ends."
+  },
+  {
+    "gateId": "Gate-E",
+    "name": "Gate E (Pepsi Gate)",
+    "location": "South-West Entrance, near Parking Lot K and L",
+    "transit": "Pedestrian crossing to the West parking garage. Shuttle pickup location for accessibility parking in Lot K.",
+    "accessibility": "Wheelchair ramp, sign-language interpreter assistance station immediately inside the gate.",
+    "sectionsServed": ["Sections 134-140", "Sections 239-245", "Sections 341-350"],
+    "hours": "Opens 3 hours prior to match kick-off, closes 1 hour after match ends."
+  },
+  {
+    "gateId": "Gate-F",
+    "name": "Gate F (Bud Light Gate)",
+    "location": "West Entrance, near Parking Lot J",
+    "transit": "Direct path from the VIP / Media parking (Lot J). Adjacent to media checkpoint.",
+    "accessibility": "Step-free security screening lines. High-contrast signage, braille maps available at the gate services kiosk.",
+    "sectionsServed": ["Sections 140, 100", "Sections 200, 246", "Sections 300, 351"],
+    "hours": "Opens 3.5 hours prior to match kick-off (early access for VIP and Suite ticket holders)."
+  }
+]

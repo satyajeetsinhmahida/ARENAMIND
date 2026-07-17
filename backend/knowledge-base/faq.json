@@ -1,0 +1,212 @@
+[
+  {
+    "question": "How do I get to MetLife Stadium by train?",
+    "answer": "You can take the Meadowlands Rail Line from Secaucus Junction station directly to the Meadowlands Sports Complex station, located right outside Gate C (MetLife Gate). Trains run continuously starting 3 hours before the match and for 2 hours after the match ends.",
+    "category": "transit",
+    "keywords": ["train", "rail", "transit", "secaucus", "nj transit", "subway"]
+  },
+  {
+    "question": "Is there bus service to the stadium?",
+    "answer": "Yes, NJ Transit operates the No. 351 Express Bus service from the Port Authority Bus Terminal in New York City directly to the stadium. Buses start running 3.5 hours before kick-off and run until 1 hour after the match concludes.",
+    "category": "transit",
+    "keywords": ["bus", "express", "port authority", "nyc", "coach"]
+  },
+  {
+    "question": "Can I use rideshare apps like Uber or Lyft?",
+    "answer": "Yes, the designated rideshare pickup and drop-off zone is located in Parking Lot E, which is right outside Gate B (SAP Gate). Due to heavy traffic, drop-offs are not permitted at any other locations around the stadium.",
+    "category": "transit",
+    "keywords": ["uber", "lyft", "rideshare", "taxi", "cab", "dropoff"]
+  },
+  {
+    "question": "How much does parking cost and how do I buy a permit?",
+    "answer": "All parking lots require a pre-purchased digital parking permit. Permits cost $40 for standard vehicles and must be purchased online prior to match day. Cash is not accepted at the lot entrances. General parking lots open 4 hours prior to kick-off.",
+    "category": "parking",
+    "keywords": ["parking", "permit", "lot", "cost", "price", "buy", "car", "tailgate"]
+  },
+  {
+    "question": "Where is the accessibility (ADA) parking located?",
+    "answer": "Accessible parking spaces are available in Parking Lots E, F, and G, closest to Gates A and B. A valid state-issued ADA license plate or hangtag, along with a stadium parking permit, is required to enter these lots. ADA shuttles operate between Lot K and Gate E.",
+    "category": "parking",
+    "keywords": ["ada", "accessible", "disabled", "parking", "handicap", "wheelchair"]
+  },
+  {
+    "question": "What is the bag policy?",
+    "answer": "Fans may bring one clear plastic bag no larger than 12\" x 6\" x 12\", or a one-gallon clear Ziploc bag. Additionally, small clutches or purses no larger than 4.5\" x 6.5\" are permitted and do not need to be clear. All other bags (backpacks, fanny packs, camera bags) are prohibited.",
+    "category": "policies",
+    "keywords": ["bag", "purse", "backpack", "clear", "size", "prohibited", "clutch"]
+  },
+  {
+    "question": "Are umbrellas allowed in the stadium?",
+    "answer": "No, umbrellas are strictly prohibited. In case of rain, fans are encouraged to bring rain jackets or disposable plastic ponchos. Ponchos are also available for purchase at all team retail stores inside the concourses.",
+    "category": "policies",
+    "keywords": ["umbrella", "rain", "weather", "poncho", "prohibited"]
+  },
+  {
+    "question": "Can I bring my own food and water?",
+    "answer": "Outside food is not permitted, except for medical/infant needs. However, fans are allowed to bring one (1) factory-sealed, clear plastic water bottle up to 20 oz (approx. 590 ml) per person. Empty clear plastic bottles up to 32 oz are allowed to be filled inside.",
+    "category": "policies",
+    "keywords": ["food", "water", "outside", "drink", "bottle", "sealed", "snack"]
+  },
+  {
+    "question": "What items are prohibited?",
+    "answer": "Prohibited items include: weapons of any kind, pocket knives, laser pointers, air horns, whistles, professional cameras with lenses longer than 6 inches, tripods, selfie sticks, banners larger than 3' x 5', umbrellas, aerosol cans, and drones.",
+    "category": "policies",
+    "keywords": ["prohibited", "allowed", "weapons", "knife", "camera", "selfie", "drone"]
+  },
+  {
+    "question": "Are there charging stations for phones?",
+    "answer": "Yes, mobile device charging kiosks are located on the Level 1 concourses near Section 117 and 139, Level 2 near Section 218, and Level 3 near Section 318. You can rent a portable power bank or charge your device directly at the station.",
+    "category": "services",
+    "keywords": ["charge", "phone", "battery", "kiosk", "power", "charging"]
+  },
+  {
+    "question": "Is there free Wi-Fi in the stadium?",
+    "answer": "Yes, high-speed public Wi-Fi is available throughout the stadium bowl, concourses, and suites. Connect to the network named 'MetLife Stadium Guest' and accept the terms of service on the login page.",
+    "category": "services",
+    "keywords": ["wifi", "internet", "wireless", "connection", "free"]
+  },
+  {
+    "question": "Where is the lost and found located?",
+    "answer": "During the match, lost and found inquiries should be directed to the Guest Services booths at Gate A or Gate C. After the match, all unclaimed items are logged at the Stadium Operations office. You can file a claim online through our lost and found portal.",
+    "category": "services",
+    "keywords": ["lost", "found", "missing", "keys", "wallet", "phone", "backpack"]
+  },
+  {
+    "question": "Where is the nearest first aid station?",
+    "answer": "First Aid stations are located on Level 1 near Section 103 (North Concourse) and Section 128 (South Concourse). On Level 3, they are near Section 301 and 328. Medical staff are also patrolling the seating bowl and concourses.",
+    "category": "medical",
+    "keywords": ["medical", "doctor", "injury", "sick", "help", "first aid", "hospital"]
+  },
+  {
+    "question": "What should I do in case of a medical emergency?",
+    "answer": "If there is a life-threatening emergency, alert the nearest security guard, usher, or medical team member immediately. You can also text 'AID' followed by your Section and Seat number to 78247, or press the Panic button in this app to alert Stadium Command.",
+    "category": "medical",
+    "keywords": ["emergency", "ambulance", "heart", "choking", "pain", "panic", "critical"]
+  },
+  {
+    "question": "Where is the sensory room located?",
+    "answer": "Our sensory-friendly room is located on the Level 1 concourse near Section 117. It provides a quiet space, soft seating, and calming materials for children and adults who experience sensory overload. Sensory kits can be checked out here.",
+    "category": "accessibility",
+    "keywords": ["sensory", "quiet", "autism", "dementia", "overload", "calm", "room"]
+  },
+  {
+    "question": "Do you offer sign language interpreters?",
+    "answer": "Yes, ASL interpreters are positioned below the giant video boards in the North and South end zones during anthems, pre-match events, and crucial match announcements. You can request personal ASL service at Guest Services near Section 100.",
+    "category": "accessibility",
+    "keywords": ["sign", "asl", "interpreter", "deaf", "hearing", "hand"]
+  },
+  {
+    "question": "What is the policy for service animals?",
+    "answer": "Trained service dogs and miniature horses accompanying individuals with disabilities are welcome. Emotional support animals, comfort animals, and pets are not permitted. A designated animal relief area is located outside Gate D.",
+    "category": "accessibility",
+    "keywords": ["dog", "service", "animal", "pet", "guide", "blind"]
+  },
+  {
+    "question": "Where can I find halal food?",
+    "answer": "Halal-certified concessions are available at Corner Kick Burgers (Stand 1), World Cup Tacos (Stand 2), and Hat-Trick Hotdogs (Stand 7). All menu items labeled with a halal logo are prepared in accordance with halal guidelines.",
+    "category": "food",
+    "keywords": ["halal", "muslim", "food", "beef", "chicken", "meat"]
+  },
+  {
+    "question": "Are there vegetarian or vegan options?",
+    "answer": "Yes, Stand 1 (Corner Kick Burgers) offers the Beyond Plant-Based Burger, Stand 2 (World Cup Tacos) offers Rajas Tacos, Stand 4 (Red Card Pizza) offers cheese pizza and gluten-free veggie slices, and Stand 7 offers a Plant-Based Veggie Dog.",
+    "category": "food",
+    "keywords": ["vegan", "vegetarian", "plant", "veggie", "meatless", "tofu"]
+  },
+  {
+    "question": "Can I pay with cash at concession stands?",
+    "answer": "MetLife Stadium is a completely cashless venue. All concession stands, merchandise stores, and ticket counters accept credit cards (Visa, Mastercard, AMEX), mobile payments (Apple Pay, Google Pay), and stadium gift cards. Reverse ATMs are near Gate A.",
+    "category": "food",
+    "keywords": ["cash", "pay", "card", "credit", "apple pay", "google pay", "cashless"]
+  },
+  {
+    "question": "What time do the stadium gates open?",
+    "answer": "Gates generally open 3 hours prior to kick-off for general ticket holders, and 3.5 hours prior for VIP, Club, and Suite ticket holders. We recommend arriving at least 2 hours early to allow sufficient time for security screening.",
+    "category": "schedule",
+    "keywords": ["open", "time", "gate", "arrival", "early", "kickoff"]
+  },
+  {
+    "question": "Can I smoke or use e-cigarettes inside?",
+    "answer": "No. MetLife Stadium is a smoke-free facility. Smoking, vaping, and using electronic cigarettes or smokeless tobacco are prohibited in all areas of the stadium, including the bowl, concourses, restrooms, and external plazas.",
+    "category": "policies",
+    "keywords": ["smoke", "vape", "cigarette", "tobacco", "ash", "prohibited"]
+  },
+  {
+    "question": "Where can I rent a wheelchair?",
+    "answer": "Complimentary wheelchair loans are available for transportation to and from seats. You can request a wheelchair at Gate B (SAP Gate) or Gate E (Pepsi Gate). A driver's license must be left as a deposit. Wheelchairs cannot remain at seats.",
+    "category": "accessibility",
+    "keywords": ["wheelchair", "rent", "loan", "chair", "ADA", "mobility"]
+  },
+  {
+    "question": "Where is the baby changing table?",
+    "answer": "Baby changing tables are available in all public restrooms (both men's and women's). In addition, private nursing suites equipped with power outlets, chairs, and sinks are located near Section 117 and Level 3 Section 317.",
+    "category": "services",
+    "keywords": ["baby", "changing", "diaper", "nursing", "mother", "breastfeed", "restroom"]
+  },
+  {
+    "question": "Is re-entry allowed?",
+    "answer": "No, re-entry is strictly prohibited. Once you scan your ticket and pass through security, you cannot leave the stadium and return using the same ticket.",
+    "category": "policies",
+    "keywords": ["reentry", "exit", "leave", "return", "in-and-out"]
+  },
+  {
+    "question": "What happens if a match is suspended due to weather?",
+    "answer": "If there is severe weather (like lightning), stadium announcements and screens will direct fans to seek shelter in the covered concourses on Level 1, 2, or 3. Play will only resume once the referee team and stadium safety officials declare it safe.",
+    "category": "policies",
+    "keywords": ["weather", "lightning", "rain", "storm", "suspend", "delay"]
+  },
+  {
+    "question": "Are there elevators for fans?",
+    "answer": "Yes, public passenger elevators are located near Gate A (Verizon Gate), Gate C (MetLife Gate), and Gate E (Pepsi Gate). Elevators provide access to the 100, 200, and 300 levels, as well as the suite levels.",
+    "category": "accessibility",
+    "keywords": ["elevator", "lift", "stairs", "escalator", "climb"]
+  },
+  {
+    "question": "Can I bring stroller into the stands?",
+    "answer": "Strollers are not permitted in the seating bowl or in the walkways. You can check your stroller free of charge at the Guest Services booths inside Gates A, C, and E, and retrieve it after the match ends.",
+    "category": "policies",
+    "keywords": ["stroller", "pram", "baby", "carriage", "check"]
+  },
+  {
+    "question": "Where is the team merchandise store?",
+    "answer": "The main flagship team store is located on the plaza level inside the MetLife Gate (Gate C). Smaller retail stands and merchandise trailers are located throughout all levels and outside near the gates.",
+    "category": "services",
+    "keywords": ["store", "shop", "jersey", "scarf", "souvenir", "merch", "t-shirt"]
+  },
+  {
+    "question": "Are sensory kits available?",
+    "answer": "Yes, sensory kits containing noise-cancelling headphones, weighted lap pads, and fidget tools can be checked out at any Guest Services booth (near Gates A, C, and E) free of charge. A valid ID is required as a deposit.",
+    "category": "accessibility",
+    "keywords": ["sensory", "headphones", "noise", "fidget", "earmuffs"]
+  },
+  {
+    "question": "What is the child ticketing policy?",
+    "answer": "Children under 34 inches (86 cm) in height do not need their own ticket but must sit on an adult's lap. All children 34 inches or taller must have a valid ticket to enter.",
+    "category": "policies",
+    "keywords": ["child", "kid", "ticket", "height", "free", "baby"]
+  },
+  {
+    "question": "How do I report a security issue or fan misconduct?",
+    "answer": "You can report any security issues or disruptive behavior directly to stadium staff, ushers, or security guards. Alternatively, text 'SOLVE' followed by your location and the issue to 78247, or report it using the Panic button in this app.",
+    "category": "policies",
+    "keywords": ["security", "fight", "drunk", "misconduct", "report", "text", "police"]
+  },
+  {
+    "question": "Are there gender-neutral restrooms?",
+    "answer": "Yes, gender-neutral and family restrooms are located on Level 1 near Sections 104, 117, 128, and 139, Level 2 near Sections 204 and 224, and Level 3 near Sections 303, 318, 332, and 347.",
+    "category": "accessibility",
+    "keywords": ["gender", "neutral", "all-gender", "restroom", "family", "toilet"]
+  },
+  {
+    "question": "Can I bring a camera?",
+    "answer": "Handheld cameras and video recorders for personal use are permitted. Camera lenses must not exceed 6 inches in length. Monopods, tripods, selfie sticks, and camera bags are prohibited.",
+    "category": "policies",
+    "keywords": ["camera", "photo", "lens", "video", "recording", "tripod"]
+  },
+  {
+    "question": "What languages does the concierge support?",
+    "answer": "The ArenaMind concierge supports English, Spanish, French, and Arabic. You can switch your preferred language at any time in the app header or ask the concierge directly in your native language.",
+    "category": "services",
+    "keywords": ["language", "translate", "spanish", "french", "arabic", "english"]
+  }
+]

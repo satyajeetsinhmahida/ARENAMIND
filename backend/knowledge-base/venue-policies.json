@@ -1,0 +1,53 @@
+{
+  "bagPolicy": {
+    "permitted": [
+      "Clear plastic bags that do not exceed 12\" x 6\" x 12\"",
+      "One-gallon clear plastic freezer bags (Ziploc or similar)",
+      "Small clutch bags or purses no larger than 4.5\" x 6.5\" (approximately the size of a hand) with or without a handle or strap, do not need to be clear."
+    ],
+    "prohibited": [
+      "Backpacks, briefcases, fanny packs, cinch bags, luggage of any kind, computer bags, and camera bags.",
+      "Any bag larger than the permitted dimensions."
+    ],
+    "exceptions": [
+      "Medical bags and diaper bags are permitted but will subject to detailed search at designated medical screening gates (Gate A and Gate E)."
+    ]
+  },
+  "prohibitedItems": [
+    "Weapons of any kind, including knives, firearms, pepper spray, and pocket tools.",
+    "Laser pointers, air horns, whistles, and other noise makers.",
+    "Professional cameras with lenses longer than 6 inches, tripods, monopods, and selfie sticks.",
+    "Outside food and beverages (except one factory-sealed plastic bottle of water up to 20 oz per person, or for medical/infant needs).",
+    "Banners, flags, or signs larger than 3' x 5', or containing commercial, political, or offensive messages.",
+    "Umbrellas (fans are encouraged to bring ponchos or rain jackets in case of rain).",
+    "Aerosol cans, fireworks, flares, and smoke canisters.",
+    "Unmanned Aerial Systems (Drones) are strictly prohibited in the stadium airspace."
+  ],
+  "reEntryPolicy": {
+    "general": "Re-entry is strictly prohibited. Once a ticket holder exits the security turnstiles, their ticket is invalidated and they will not be allowed back into the stadium.",
+    "emergencies": "In case of medical or family emergencies, fans must seek assistance from a Guest Services Supervisor at Gates A, C, or E prior to exiting. Emergency re-entry passes may be issued at their discretion."
+  },
+  "alcoholPolicy": {
+    "purchaseLimit": "Maximum of two (2) alcoholic beverages per transaction per person.",
+    "idRequirement": "Anyone purchasing alcohol who appears to be under thirty (30) years of age must present a valid government-issued photo ID showing they are 21 years of age or older.",
+    "cutoffTime": "Alcohol sales will cease promptly at the 75th minute of the match. For knockout matches going to extra time, sales will not resume.",
+    "prohibitions": "Bringing alcohol into or taking alcohol out of the stadium is strictly prohibited. Tailgating alcohol must remain in the parking lots."
+  },
+  "smokingPolicy": {
+    "general": "MetLife Stadium is a smoke-free facility. Smoking of any kind (including e-cigarettes, vaporizers, and smokeless tobacco) is strictly prohibited inside the stadium bowl, concourses, suites, and clubs.",
+    "designatedAreas": "There are no designated smoking areas inside the security perimeter. Violators are subject to ejection and fines."
+  },
+  "photographyPolicy": {
+    "permitted": "Handheld cameras and mobile devices are permitted for personal, non-commercial use only.",
+    "prohibited": "Video recording devices, professional cameras (lenses over 6 inches), flashes, tripods, and monopods are not permitted. Transmitting live broadcasts or match feeds is strictly prohibited."
+  },
+  "childPolicies": {
+    "ticketRequirement": "Children under 34 inches (86 cm) in height do not require a ticket but must sit on the lap of an accompanying adult. Children taller than 34 inches must have a valid ticket.",
+    "strollers": "Strollers are permitted but must be checked in at Guest Services centers inside Gate A, C, or E. They cannot be brought into the seating bowl or left in the aisles.",
+    "lostChildren": "Lost children should be escorted to the nearest Guest Services booth or First Aid Station. Staff will coordinate with Stadium Operations and security to locate parents."
+  },
+  "weatherContingency": {
+    "lightning": "In the event of lightning within an 8-mile radius of the stadium, play will be suspended and fans will be instructed via public address system and screens to evacuate the open seating bowl and seek shelter in the covered concourses (Level 1, 2, and 3).",
+    "heat": "For matches under extreme heat warnings, additional free water stations will be activated at all Concessions. Fans will be allowed to bring empty, clear plastic water bottles up to 32 oz to fill inside the gates."
+  }
+}
