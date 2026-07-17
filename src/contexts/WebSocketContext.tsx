@@ -18,7 +18,8 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
   // Batching/Throttling telemetry events to avoid UI lockups (100ms throttling)
   const telemetryBatchRef = useRef<Map<string, any>>(new Map());
-  const telemetryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+ // const telemetryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const telemetryTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const connect = () => {
     // Resolve ws connection URL dynamically
