@@ -93,7 +93,8 @@ export function initRoutes(
   });
 
   router.post('/actions/:id/respond', sanitizeInput, (req: Request, res: Response) => {
-    const { id } = req.params;
+    // const { id } = req.params;
+    const id = req.params.id as string;
     const { response, staffRole } = req.body;
 
     if (!response || !staffRole) {
@@ -152,12 +153,28 @@ export function initRoutes(
     const rawQuery = req.query.q;
 
 const query =
-  Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
+  typeof rawQuery === "string"
+    ? rawQuery
+    : Array.isArray(rawQuery)
+      ? rawQuery[0]
+      : undefined;
 
 if (!query) {
-  res.status(400).json({ error: "Missing q search query parameter." });
+  res.status(400).json({
+    error: "Missing q search query parameter."
+  });
   return;
 }
+
+//     const rawQuery = req.query.q;
+
+// const query =
+//   Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
+
+// if (!query) {
+//   res.status(400).json({ error: "Missing q search query parameter." });
+//   return;
+// }
 
 // const results = searchKnowledge(query, 5);
 //     const query = req.query.q as string;
