@@ -144,7 +144,8 @@ Alert Event Details:
   /**
    * Maps CrowdIntel risk categories into operations Urgency levels.
    */
-  private mapRiskToUrgency(risk: intelEvent['riskLevel']): UrgencyLevel {
+ // private mapRiskToUrgency(risk: intelEvent['riskLevel']): UrgencyLevel {
+    private mapRiskToUrgency(risk: CrowdIntelEvent['riskLevel']): UrgencyLevel {
     if (risk === 'CRITICAL') return 'CRITICAL';
     if (risk === 'HIGH') return 'HIGH';
     if (risk === 'MEDIUM') return 'MEDIUM';
