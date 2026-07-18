@@ -149,11 +149,22 @@ export function initRoutes(
   // ─── Knowledge RAG Search ────────────────────────────────────────────────────────
 
   router.get('/knowledge', sanitizeInput, (req: Request, res: Response) => {
-    const query = req.query.q as string;
-    if (!query) {
-      res.status(400).json({ error: "Missing q search query parameter." });
-      return;
-    }
+    const rawQuery = req.query.q;
+
+const query =
+  Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
+
+if (!query) {
+  res.status(400).json({ error: "Missing q search query parameter." });
+  return;
+}
+
+// const results = searchKnowledge(query, 5);
+//     const query = req.query.q as string;
+//     if (!query) {
+//       res.status(400).json({ error: "Missing q search query parameter." });
+//       return;
+//     }
 
     try {
       const results = searchKnowledge(query, 5);
