@@ -148,48 +148,67 @@ export function initRoutes(
   });
 
   // ─── Knowledge RAG Search ────────────────────────────────────────────────────────
-
   router.get('/knowledge', sanitizeInput, (req: Request, res: Response) => {
-    const rawQuery = req.query.q;
+  const rawQuery = req.query.q;
 
-const query =
-  typeof rawQuery === "string"
-    ? rawQuery
-    : Array.isArray(rawQuery)
-      ? rawQuery[0]
-      : undefined;
+  if (typeof rawQuery !== "string") {
+    res.status(400).json({
+      error: "Missing q search query parameter."
+    });
+    return;
+  }
 
-if (!query) {
-  res.status(400).json({
-    error: "Missing q search query parameter."
-  });
-  return;
-}
+  try {
+    const results = searchKnowledge(rawQuery, 5);
+    res.status(200).json(results);
+  } catch (err) {
+    res.status(500).json({
+      error: "Failed to execute similarity search."
+    });
+  }
+});
 
+//   router.get('/knowledge', sanitizeInput, (req: Request, res: Response) => {
 //     const rawQuery = req.query.q;
 
 // const query =
-//   Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
+//   typeof rawQuery === "string"
+//     ? rawQuery
+//     : Array.isArray(rawQuery)
+//       ? rawQuery[0]
+//       : undefined;
 
 // if (!query) {
-//   res.status(400).json({ error: "Missing q search query parameter." });
+//   res.status(400).json({
+//     error: "Missing q search query parameter."
+//   });
 //   return;
 // }
 
-// const results = searchKnowledge(query, 5);
-//     const query = req.query.q as string;
-//     if (!query) {
-//       res.status(400).json({ error: "Missing q search query parameter." });
-//       return;
-//     }
+// //     const rawQuery = req.query.q;
 
-    try {
-      const results = searchKnowledge(query, 5);
-      res.status(200).json(results);
-    } catch (err) {
-      res.status(500).json({ error: "Failed to execute similarity search." });
-    }
-  });
+// // const query =
+// //   Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
+
+// // if (!query) {
+// //   res.status(400).json({ error: "Missing q search query parameter." });
+// //   return;
+// // }
+
+// // const results = searchKnowledge(query, 5);
+// //     const query = req.query.q as string;
+// //     if (!query) {
+// //       res.status(400).json({ error: "Missing q search query parameter." });
+// //       return;
+// //     }
+
+//     try {
+//       const results = searchKnowledge(query, 5);
+//       res.status(200).json(results);
+//     } catch (err) {
+//       res.status(500).json({ error: "Failed to execute similarity search." });
+//     }
+//   });
 
   // ─── Manual Broadcast Trigger ─────────────────────────────────────────────────────
 
