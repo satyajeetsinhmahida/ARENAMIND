@@ -167,49 +167,6 @@ export function initRoutes(
     });
   }
 });
-
-//   router.get('/knowledge', sanitizeInput, (req: Request, res: Response) => {
-//     const rawQuery = req.query.q;
-
-// const query =
-//   typeof rawQuery === "string"
-//     ? rawQuery
-//     : Array.isArray(rawQuery)
-//       ? rawQuery[0]
-//       : undefined;
-
-// if (!query) {
-//   res.status(400).json({
-//     error: "Missing q search query parameter."
-//   });
-//   return;
-// }
-
-// //     const rawQuery = req.query.q;
-
-// // const query =
-// //   Array.isArray(rawQuery) ? rawQuery[0] : rawQuery;
-
-// // if (!query) {
-// //   res.status(400).json({ error: "Missing q search query parameter." });
-// //   return;
-// // }
-
-// // const results = searchKnowledge(query, 5);
-// //     const query = req.query.q as string;
-// //     if (!query) {
-// //       res.status(400).json({ error: "Missing q search query parameter." });
-// //       return;
-// //     }
-
-//     try {
-//       const results = searchKnowledge(query, 5);
-//       res.status(200).json(results);
-//     } catch (err) {
-//       res.status(500).json({ error: "Failed to execute similarity search." });
-//     }
-//   });
-
   // ─── Manual Broadcast Trigger ─────────────────────────────────────────────────────
 
   router.post('/broadcast', sanitizeInput, async (req: Request, res: Response) => {
